@@ -1,0 +1,143 @@
+-------------------------------------
+These are supplier information:
+{
+   "name":"Supplier 1",
+   "city":"Houston",
+   "state":"TX",
+   "number":3,
+   "foods":
+   [
+      {
+         "name":"Chicken",
+         "origin":"USA"
+      },
+      {
+         "name":"Egg",
+         "origin":"Canada"
+      },
+      {
+         "name":"Chicken",
+         "origin":"China"
+      }
+
+   ]
+
+}
+{
+   "name":"This supplier",
+   "city":"Dallas",
+   "state":"TX",
+   "number":2,
+   "foods":
+   [
+      {
+         "name":"Orange",
+         "origin":"Mexico"
+      },
+      {
+         "name":"Avocado",
+         "origin":"Mexico"
+      }
+
+   ]
+
+}
+{
+   "name":"Great Foods",
+   "city":"Seattle",
+   "state":"WA",
+   "number":6,
+   "foods":
+   [
+      {
+         "name":"Orange",
+         "origin":"Mexico"
+      },
+      {
+         "name":"Orange",
+         "origin":"USA"
+      },
+      {
+         "name":"Banana",
+         "origin":"Panama"
+      },
+      {
+         "name":"Banana",
+         "origin":"Italy"
+      },
+      {
+         "name":"Frog legs",
+         "origin":"Hong Kong"
+      },
+      {
+         "name":"Frog legs",
+         "origin":"France"
+      }
+
+   ]
+
+}
+-------------------------------------
+These are restaurant information:
+{
+   "name":"Top Tier Restaurant",
+   "city":"Houston",
+   "state":"TX"
+}
+{
+   "name":"McD",
+   "city":"Dallas",
+   "state":"TX"
+}
+{
+   "name":"Eating Good",
+   "city":"Dallas",
+   "state":"GA"
+}
+-------------------------------------
+These are match information:
+{
+   "id":
+   {
+      "timestamp":1666922786,
+      "date":1666922786000
+   },
+   "restaurantName":"Eating Good",
+   "supplierName":"Great Foods",
+   "food":
+   {
+      "name":"Orange",
+      "origin":"Mexico"
+   }
+
+}
+{
+   "id":
+   {
+      "timestamp":1666922786,
+      "date":1666922786000
+   },
+   "restaurantName":"McD",
+   "supplierName":"Supplier 1",
+   "food":
+   {
+      "name":"Egg",
+      "origin":"Canada"
+   }
+
+}
+{
+   "id":
+   {
+      "timestamp":1666922786,
+      "date":1666922786000
+   },
+   "restaurantName":"Eating Good",
+   "supplierName":"This supplier",
+   "food":
+   {
+      "name":"Orange",
+      "origin":"Mexico"
+   }
+
+}
